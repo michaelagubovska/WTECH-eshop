@@ -1,0 +1,119 @@
+.product_in_cart_cell {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.product_amount_count {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.x_button {
+    border: 0;
+    background: transparent;
+}
+
+.cart_navigation {
+    margin-bottom: 40px;
+}
+
+.cart_tab_item {
+    color: #495057 !important;
+}
+
+.cart_tab_item.active {
+    font-weight: bold !important;
+}
+
+.cart_tab_item:hover {
+    background-color: rgba(0, 184, 217,.6) !important;
+}
+
+.shipping_option {
+    border: solid 1px #ced4da !important;
+    border-radius: 0.25rem !important;
+    padding: 15px 12px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.payment_option {
+    border: solid 1px #ced4da !important;
+    border-radius: 0.25rem !important;
+    padding: 15px 12px !important;
+    margin-bottom: 10px;
+}
+
+.payment_summary {
+    padding-bottom: 15px !important;
+}
+
+.shipping_section_title {
+    margin-top: 42px !important;
+    font-weight: 500 !important;
+}
+
+@media (max-width: 440px) {
+    .tab_label {
+        padding-left: 6px !important;
+    }
+    .tab_label_img {
+        padding-right: 6px !important;
+    }
+    .cart_step {
+        font-size: 14px !important;
+    }
+    .cart_step_img {
+        width: 20px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .cart_tab_item {
+        padding: 6px 12px !important;
+    }
+    .tab_label {
+        padding-left: 2px !important;
+    }
+    .tab_label_img {
+        padding-right: 2px !important;
+    }
+    .cart_step_img {
+        width: 20px !important;
+    }
+}
+
+@media (min-width: 441px) {
+    .cart_tab_item {
+        padding: 10px 14px !important;
+    }
+    .tab_label {
+        padding-left: 8px !important;
+    }
+    .tab_label_img {
+        padding-right: 8px !important;
+    }
+    .cart_step_img {
+        width: 24px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    div .cart-header {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    div .cart-description-small {
+        display: none;
+    }
+}
+
+.input_cart {
+    max-width:100px;
+    border-color: white;
+    background-color: white;
+
+}
+

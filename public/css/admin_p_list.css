@@ -1,0 +1,15 @@
+@media (max-width: 575px) {
+    section.list-header {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) {
+    div.cell-description-small {
+        display: none;
+    }
+}
+
+.list-header-label {
+    font-weight: bold;
+}

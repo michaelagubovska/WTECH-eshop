@@ -1,0 +1,53 @@
+#btnRemoveProduct, #btnRemoveImage {
+    background-color: #d13f3f; !important;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
+#btnSaveChanges {
+    background-color: #00b8d9; !important;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+}
+
+#product_informartion h1 {
+    text-align: right !important;
+}
+
+#product_images_detail {
+    width: 50%;
+}
+
+/*PRODUCT DETAIL*/
+/*SIZES*/
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
+label.radio span {
+    padding: 2px 9px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 56px;
+    text-align: center;
+}
+
+label.radio input:checked+span {
+    background-color: rgba(0, 184, 217,.6);
+}

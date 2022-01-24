@@ -1,0 +1,126 @@
+@media (max-width: 991px) {
+    #add_cart_button{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    p{
+        margin-left: 0 !important;
+        font-size: 16px;
+        text-align: left !important;
+    }
+    .form-floating label{
+        font-size: 10px;
+    }
+
+}
+
+/*SIGN IN*/
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.sign-font label{
+    font-size: 16px !important;
+}
+
+
+
+/*REGISTRATION AND PRODUCT DETAIL*/
+p{
+    max-width: 350px !important;
+    text-align: justify ;
+    text-justify: auto;
+}
+
+/*PRODUCT DETAIL*/
+/*SIZES*/
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
+label.radio span {
+    padding: 2px 9px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 56px;
+    text-align: center;
+}
+
+label.radio input:checked+span {
+    background-color: rgba(0, 184, 217,.6);
+}
+/*END SIZES*/
+
+#add_cart_button{
+    white-space: nowrap;
+    margin-left: 10px;
+    max-width: 150px;
+}
+
+/*ADDITIONAL INFO*/
+#add_info{
+    margin-left: 2em;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*PHOTO DETAILS*/
+fieldset.active {
+    display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+.tb {
+    opacity: 0.4;
+    cursor: pointer
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.fit_to_page{
+    --bs-gutter-x: 0 !important;
+}
